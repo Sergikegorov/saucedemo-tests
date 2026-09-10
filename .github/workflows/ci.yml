@@ -1,4 +1,3 @@
-cat > .github/workflows/ci.yml << 'EOF'
 name: QA Automation CI
 
 on:
@@ -38,4 +37,3 @@ jobs:
         with:
           name: allure-report
           path: target/site/allure-maven-plugin/
-EOF
